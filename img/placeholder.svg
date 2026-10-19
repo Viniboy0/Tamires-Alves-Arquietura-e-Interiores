@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" role="img" aria-label="Imagem placeholder do projeto">
+  <rect width="800" height="600" fill="#e9e2d6"/>
+  <rect x="40" y="250" width="720" height="60" rx="8" fill="#7e96a6" opacity="0.35"/>
+  <rect x="40" y="325" width="480" height="28" rx="8" fill="#5c5850" opacity="0.3"/>
+  <text x="40" y="150" font-family="Georgia, serif" font-size="44" font-style="italic" fill="#4f6a7a">Espaço para foto do projeto</text>
+  <text x="40" y="200" font-family="Arial, sans-serif" font-size="24" fill="#5c5850">800 x 600 — trocar por .webp final</text>
+</svg>

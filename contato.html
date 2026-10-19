@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato e orçamento pelo WhatsApp | Tamires Alves</title>
+  <meta name="description" content="Peça um orçamento de arquitetura e interiores no ABC e Grande SP. Preencha nome, empreendimento ou bairro, fase e prazo — a mensagem abre direto no WhatsApp.">
+  <link rel="canonical" href="https://arqtamiresalves.com.br/contato.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contato | Tamires Alves">
+  <meta property="og:description" content="Orçamento rápido pelo WhatsApp para seu projeto.">
+  <meta property="og:url" content="https://arqtamiresalves.com.br/contato.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300;400&family=Hanken+Grotesk:wght@400;500&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Google Analytics 4 — descomente e troque G-XXXXXXXXXX pelo ID da propriedade
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="marca" href="index.html" aria-label="Tamires Alves — página inicial">
+        <span class="marca-nome">TAMIRES ALVES</span>
+        <span class="marca-sub">ARQUITETURA E INTERIORES</span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="menu">Menu</button>
+        <ul class="nav-list" id="menu" data-nav-list>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="portfolio/index.html">Portfólio</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html" aria-current="page">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="secao" aria-labelledby="form-titulo">
+      <div class="container contato-grid">
+        <div class="contato-info">
+          <h1 id="form-titulo">Peça um orçamento pelo WhatsApp</h1>
+          <p class="lead">Conte um pouco sobre o seu apartamento. Leva 1 minuto e a conversa continua pelo WhatsApp.</p>
+          <ul class="canais">
+            <li><a href="https://wa.me/5511942119178?text=Ol%C3%A1%2C%20Tamires!%20Quero%20um%20or%C3%A7amento.">WhatsApp (11) 94211-9178</a></li>
+            <li><a href="https://www.instagram.com/arqtamires/">Instagram @arqtamires</a></li>
+            <li>Atendo ABC e Grande SP</li>
+          </ul>
+        </div>
+
+        <div class="contato-form">
+          <form id="form-orcamento" action="https://wa.me/5511942119178" method="get">
+            <p>
+              <label for="f-nome">Nome</label>
+              <input id="f-nome" name="nome" type="text" autocomplete="name" required maxlength="80" placeholder="Seu nome">
+            </p>
+            <p>
+              <label for="f-local">Empreendimento ou bairro</label>
+              <input id="f-local" name="local" type="text" required maxlength="120" placeholder="Ex.: Residencial X — Santo André">
+            </p>
+            <fieldset class="fase-grupo">
+              <legend>Fase do projeto</legend>
+              <label class="opcao"><input type="radio" name="fase" value="Na planta" checked required> Na planta</label>
+              <label class="opcao"><input type="radio" name="fase" value="Recebi as chaves" required> Recebi as chaves</label>
+              <label class="opcao"><input type="radio" name="fase" value="Em obra" required> Em obra</label>
+            </fieldset>
+            <p>
+              <label for="f-prazo">Prazo desejado</label>
+              <input id="f-prazo" name="prazo" type="text" maxlength="80" placeholder="Ex.: mudar em 4 meses">
+            </p>
+            <p><button class="btn btn-whats btn-bloco" type="submit">Enviar pelo WhatsApp</button></p>
+            <p class="meta">Você revisa a mensagem antes de enviar.</p>
+            <noscript>
+              <p class="meta">Sem JavaScript? <a href="https://wa.me/5511942119178?text=Ol%C3%A1%2C%20Tamires!%20Quero%20um%20or%C3%A7amento.">Abra a conversa direta</a>.</p>
+            </noscript>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p><strong>Tamires Alves — Arquitetura e Interiores</strong><br>CAU A314489-5</p>
+      <p class="meta">© <span data-ano>2026</span> Tamires Alves. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
